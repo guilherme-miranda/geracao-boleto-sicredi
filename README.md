@@ -1,4 +1,4 @@
-# Pagamento API Sicredi
+# Geração de boletos com API Sicredi
 
 Esse projeto consiste na geração de cobranças baseada na API disponibilizada pelo banco Sicredi, de maneira simples e prática.
 
@@ -31,10 +31,10 @@ A Cobrança Online contém as seguintes operações
 Devem ser modificados algumas variáveis no PagamentoSicrediBoleto.php
 
 ```
-    const tokenMaster 	= 		"**********************************************************";	//chave Mestre
-    const agencia 		=		"****"; 														//agência do beneficiário
-    const posto 		=		"**";															//posto do beneficiário
-    const cedente 		=		"*****";														//código do cedente
+    const tokenMaster 	= 		"***********************************************";	//chave Mestre
+    const agencia 		=		"****"; 		//agência do beneficiário
+    const posto 		=		"**";			//posto do beneficiário
+    const cedente 		=		"*****";		//código do cedente
 ```
 
 ## Preview
@@ -47,8 +47,8 @@ Devem ser modificados algumas variáveis no PagamentoSicrediBoleto.php
 
 ## Authors
 
-* **Odair Pianta**			[OdairPianta](https://github.com/PurpleBooth)
-* **Rafael André Hoffmann**	[RafaelHoffmann](https://github.com/PurpleBooth)
+* **Odair Pianta**			[Odair Pianta] (https://github.com/odairpianta)
+* **Rafael André Hoffmann**	[Rafael Hoffmann] (https://github.com/rafa-hoffmann)
 
 Veja também a lista de [contribuidores](https://github.com/spotecnologia/geracao-boleto-sicredi/graphs/contributors) que participaram desse projeto.
 
