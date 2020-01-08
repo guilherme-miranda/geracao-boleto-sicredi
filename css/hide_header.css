@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/07/2019, 09:58:34
+    Author     : Desenvolvimento
+*/
+
+.main-pt{
+    padding-top: 3rem!important;
+}
+
+@media only screen and (min-width: 1025px) {
+    .main-pt{
+        padding-top: .5rem!important;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navbar {
+        transform: translateY(calc(-100% + 10px));
+        transition: transform .4s cubic-bezier(.4, 0, .2, 1) .2s;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    header:hover .navbar {
+        transform: translateY(0);
+        transition-delay: 0s;
+    }
+
+    header,
+    header * {
+        box-sizing: border-box;
+    }
+}
